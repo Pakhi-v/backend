@@ -60,6 +60,10 @@ app.post('/staff/student-report/scan',(req,res)=>{
 })
 });
 
+app.get('/test', (req, res) => {
+  res.json('Hello World!').end();
+});
+
 app.post('/student/markAttendance', (req, res)=>{
   const { lecture, time, erno } = req.body;
   console.log(lecture, time, erno);
