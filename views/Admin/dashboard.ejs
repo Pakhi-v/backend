@@ -1,0 +1,35 @@
+<%- include('../Includes/begin.ejs') %>
+
+<link rel="stylesheet" href="../CSS/admin-dashboard.css">
+
+<div class="container-fluid">
+
+    <div id="wrapper">
+
+        <%- include('../Includes/admin_nav.ejs') %>
+
+        <section id="content-wrapper">
+            <main role="main" class="pt-5 main">
+                <div class="header pb-4 pb-sm-8 pt-5 pt-lg-4 d-flex align-items-center"
+                    style="max-height: 100px; background-size: cover; background-position: center top;">
+                    <h1>Hello <%= user.name %></h1>
+                </div>
+
+                <hr>
+                <img src="/images/cover.jpg" alt="" style="overflow: auto; padding: 1%; width: 100%; height: auto;">
+                <h1 style="color: rgb(255, 0, 0); text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Hey Admin! Manage Settings</h1>
+                <hr>
+
+
+            </main>
+        </section>
+
+    </div>
+
+
+
+</div>
+
+
+
+<%- include('../Includes/admin_end.ejs') %>

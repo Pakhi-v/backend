@@ -1,0 +1,17 @@
+<%- include('../Includes/begin.ejs') %>
+    <%- include('../Includes/staff_nav.ejs') %>
+
+    <section id="content-wrapper">
+        <main role="main" class="pt-5 main">
+            <div class="header pb-4 pb-sm-8 pt-5 pt-lg-4 d-flex align-items-center"
+                style="max-height: 100px; background-size: cover; background-position: center top;">
+                <h1>Hello <%= user.st_name %>
+                </h1>
+            </div>
+            <img src="/images/over.jpg" alt="" style="overflow: auto; padding: 1%; width: 100%; height: auto;">
+            <h1 style="color: rgb(255, 0, 0); text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">Hey Teacher! Mark Attendance</h1>
+            <hr>
+        </main>
+    </section>
+
+        <%- include('../Includes/staff_end.ejs') %>
